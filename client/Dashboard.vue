@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+  <small>
     <div class="col-lg-12">
       <div class="search-wrapper">
           <input type="text" v-model="search" placeholder="Search Id.."/>
@@ -22,6 +23,7 @@
           <Display v-for="toa in filteredToa" v-bind:key="toa.id" v-bind:toa="toa" />
       </table>
   </div>
+</small>
 </div>
 </template>
 

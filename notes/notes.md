@@ -54,3 +54,20 @@ db.time.update(
    }
 )
 ```
+
+# create
+
+db.toa.insert({
+        name: "newName",
+        id: "newIdentifier",
+        avtar: "newAvtar",
+        dob: "newDob",
+        datet: "newDatet",
+        mrp: "newMrp",
+        nurse: "newNurse",
+        story: "newStory",
+        assessment: "newAssessment",
+        followup: "newFollowup",
+        evaluation: "newEvaluation",
+        createdAt: new Date() 
+      });

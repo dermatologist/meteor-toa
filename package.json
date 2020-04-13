@@ -8,10 +8,11 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.4",
+    "@babel/runtime": "^7.9.2",
     "meteor-node-stubs": "^0.4.1",
     "vue": "^2.6.11",
-    "vue-meteor-tracker": "^2.0.0-beta.5"
+    "vue-meteor-tracker": "^2.0.0-beta.5",
+    "vue-router": "^3.0.0"
   },
   "meteor": {
     "mainModule": {
@@ -19,5 +20,16 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {},
+  "staticAssets": {
+      "extensions": [
+        "jpg",
+        "png",
+        "svg"
+      ],
+      "pathPrefix": "static/",
+      "exportAbsolutePaths": false
   }
+  
 }
